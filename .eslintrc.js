@@ -3,6 +3,7 @@ module.exports = {
   env: {
     node: true,
     es2021: true,
+    mocha: true,
   },
   extends: ['eslint:recommended', 'plugin:security/recommended', 'plugin:@typescript-eslint/recommended'],
   overrides: [],
